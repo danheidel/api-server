@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "api-server",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,5 +8,17 @@
   "dependencies": {
     "express": "3.4.0",
     "mongoose": "*"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danheidel/api-server.git"
+  },
+  "author": "Dan Heidel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danheidel/api-server/issues"
+  },
+  "homepage": "https://github.com/danheidel/api-server"
 }
